@@ -7,7 +7,7 @@ import userRoute from "./route/userRoute.js";
 import bookRoute from "./route/bookRoute.js";
 const app = express();
 const corsOptions = {
-  origin: "*",
+  origin: "https://uptime-library-mgmt.netlify.app/",
 };
 
 const mongo = async () => {
